@@ -41,5 +41,5 @@ client.on('message', message =>{
     
 });
 
-client.login('ODEzODMzODE3MDQ3NTY0MzM5.YDVDzg.F8TUcEvoqnYt1HZSgDvV7U8Taos');
+client.login(process.env.Token);
 
